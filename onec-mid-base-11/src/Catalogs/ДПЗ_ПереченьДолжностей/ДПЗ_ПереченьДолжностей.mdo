@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec3550c9-6a4e-4ca9-a4f7-2cfe6279b6bd">
+  <producedTypes>
+    <objectType typeId="41464e9b-295d-4ebb-885f-7e34f6abfbb3" valueTypeId="1fd12798-a1bc-436b-93fc-1f7416bb9274"/>
+    <refType typeId="f1c07acb-36d0-4377-962d-a596696b754e" valueTypeId="bc4cb79a-28fb-4d52-80a2-d2ba5a15ae67"/>
+    <selectionType typeId="beee65df-ab4c-4254-89a7-e2998ccbfa3b" valueTypeId="fc519317-ff2d-45fc-9942-91bc29047cb3"/>
+    <listType typeId="e1bd85ed-62c8-4016-bdc2-b93e140841b2" valueTypeId="20465070-0bf3-490a-979b-0d878c676daf"/>
+    <managerType typeId="5f08f6dd-ed39-477d-b4eb-b8b0362e887d" valueTypeId="5602b668-26e2-463b-92b4-afd31fb8adb9"/>
+  </producedTypes>
+  <name>ДПЗ_ПереченьДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечень должностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДПЗ_ПереченьДолжностей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДПЗ_ПереченьДолжностей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ДПЗ_ПереченьДолжностей.Form.ФормаСписка</defaultListForm>
+  <forms uuid="b7c9e478-8087-48d9-a5a5-f20a13c2b5a6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
